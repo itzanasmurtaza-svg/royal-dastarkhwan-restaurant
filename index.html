@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="MEHRANÉ — A luxury Pakistani fine-dining experience celebrating authentic flavors with modern elegance.">
+    <meta name="keywords"
+        content="Pakistani restaurant, fine dining, luxury restaurant, Pakistani cuisine, Mehrané">
+    <meta name="author" content="Anas Murtaza">
+
+    <title>MEHRANÉ | Pakistani Fine Dining</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= PRELOADER ================= -->
+
+    <div class="preloader" id="preloader">
+        <div class="loader-content">
+            <span>MEHRANÉ</span>
+            <small>PAKISTANI FINE DINING</small>
+        </div>
+    </div>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="header" id="header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                <span>MEHRANÉ</span>
+                <small>PAKISTANI FINE DINING</small>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#chef" class="nav-link">Chef</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+                <a href="#reservation" class="nav-reservation">
+                    Reserve a Table
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="hero-subtitle">
+                    AUTHENTIC PAKISTANI CUISINE
+                </p>
+
+                <h1>
+                    A Taste of
+                    <span>Heritage.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Where centuries-old Pakistani flavors meet
+                    contemporary fine dining.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#menu" class="btn btn-primary">
+                        Explore Our Menu
+                    </a>
+
+                    <a href="#reservation" class="btn btn-outline">
+                        Reserve Your Table
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+                <span>SCROLL TO DISCOVER</span>
+                <div class="scroll-line"></div>
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-images">
+
+                    <div class="about-image about-image-main">
+                        <img
+                            src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85"
+                            alt="Traditional Pakistani cuisine">
+                    </div>
+
+                    <div class="about-image about-image-small">
+                        <img
+                            src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=85"
+                            alt="Fine dining dish">
+                    </div>
+
+                    <div class="about-badge">
+                        <span>EST.</span>
+                        <strong>2026</strong>
+                    </div>
+
+                </div>
+
+                <div class="about-content">
+
+                    <p class="section-label">OUR STORY</p>
+
+                    <h2>
+                        Tradition,
+                        <span>Reimagined.</span>
+                    </h2>
+
+                    <p class="about-text">
+                        MEHRANÉ is a celebration of Pakistan's rich culinary
+                        heritage. We bring together traditional recipes,
+                        locally inspired ingredients and modern culinary
+                        techniques to create an unforgettable dining experience.
+                    </p>
+
+                    <p class="about-text">
+                        Every plate tells a story — from the smoky streets of
+                        Lahore to the royal kitchens of the Mughal era.
+                    </p>
+
+                    <a href="#menu" class="text-link">
+                        Discover Our Story
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MENU ================= -->
+
+        <section class="menu section" id="menu">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">OUR SIGNATURES</p>
+
+                    <h2>
+                        A Menu Worth
+                        <span>Remembering.</span>
+                    </h2>
+
+                    <p>
+                        Carefully crafted dishes inspired by the diverse
+                        flavors of Pakistan.
+                    </p>
+
+                </div>
+
+
+                <div class="menu-filters">
+
+                    <button class="filter-btn active" data-filter="all">
+                        All
+                    </button>
+
+                    <button class="filter-btn" data-filter="main">
+                        Main Course
+                    </button>
+
+                    <button class="filter-btn" data-filter="grill">
+                        From The Grill
+                    </button>
+
+                    <button class="filter-btn" data-filter="dessert">
+                        Desserts
+                    </button>
+
+                </div>
+
+
+                <div class="menu-grid">
+
+                    <!-- Menu Item 01 -->
+
+                    <article class="menu-card" data-category="main">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=85"
+                                alt="Lahori Mutton Karahi">
+
+                            <span class="menu-number">01</span>
+
+                        </div>
+
+                        <div class="menu-info">
+
+                            <div class="menu-title-row">
+
+                                <h3>Lahori Mutton Karahi</h3>
+
+                                <span class="price">₨ 2,850</span>
+
+                            </div>
+
+                            <p>
+                                Tender mutton slow-cooked with tomatoes,
+                                green chilies and aromatic spices.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Menu Item 02 -->
+
+                    <article class="menu-card" data-category="main">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=900&q=85"
+                                alt="Royal Chicken Biryani">
+
+                            <span class="menu-number">02</span>
+
+                        </div>
+
+                        <div class="menu-info">
+
+                            <div class="menu-title-row">
+
+                                <h3>Royal Chicken Biryani</h3>
+
+                                <span class="price">₨ 1,950</span>
+
+                            </div>
+
+                            <p>
+                                Fragrant basmati rice layered with tender
+                                chicken, saffron and traditional spices.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Menu Item 03 -->
+
+                    <article class="menu-card" data-category="grill">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=900&q=85"
+                                alt="Charcoal Seekh Kebab">
+
+                            <span class="menu-number">03</span>
+
+                        </div>
+
+                        <div class="menu-info">
+
+                            <div class="menu-title-row">
+
+                                <h3>Charcoal Seekh Kebab</h3>
+
+                                <span class="price">₨ 1,750</span>
+
+                            </div>
+
+                            <p>
+                                Handcrafted minced beef kebabs grilled over
+                                traditional charcoal.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Menu Item 04 -->
+
+                    <article class="menu-card" data-category="main">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1628294895950-9805252327bc?auto=format&fit=crop&w=900&q=85"
+                                alt="Beef Nihari">
+
+                            <span class="menu-number">04</span>
+
+                        </div>
+
+                        <div class="menu-info">
+
+                            <div class="menu-title-row">
+
+                                <h3>Royal Beef Nihari</h3>
+
+                                <span class="price">₨ 2,200</span>
+
+                            </div>
+
+                            <p>
+                                Slow-braised beef simmered overnight with
+                                a signature blend of spices.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Menu Item 05 -->
+
+                    <article class="menu-card" data-category="grill">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85"
+                                alt="Chicken Tikka">
+
+                            <span class="menu-number">05</span>
+
+                        </div>
+
+                        <div class="menu-info">
+
+                            <div class="menu-title-row">
+
+                                <h3>Smoked Chicken Tikka</h3>
+
+                                <span class="price">₨ 1,650</span>
+
+                            </div>
+
+                            <p>
+                                Charcoal-grilled chicken marinated in our
+                                signature house spices.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Menu Item 06 -->
+
+                    <article class="menu-card" data-category="dessert">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=900&q=85"
+                                alt="Zafrani Kheer">
+
+                            <span class="menu-number">06</span>
+
+                        </div>
+
+                        <div class="menu-info">
+
+                            <div class="menu-title-row">
+
+                                <h3>Zafrani Kheer</h3>
+
+                                <span class="price">₨ 650</span>
+
+                            </div>
+
+                            <p>
+                                Creamy traditional rice pudding infused
+                                with saffron and cardamom.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="menu-more">
+
+                    <a href="#reservation" class="btn btn-outline">
+                        View Full Menu
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section class="experience">
+
+            <div class="experience-overlay"></div>
+
+            <div class="container experience-content">
+
+                <p class="section-label">THE MEHRANÉ EXPERIENCE</p>
+
+                <h2>
+                    More Than
+                    <span>A Meal.</span>
+                </h2>
+
+                <p>
+                    An atmosphere designed to slow time down,
+                    connect people and celebrate the art of food.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CHEF ================= -->
+
+        <section class="chef section" id="chef">
+
+            <div class="container chef-grid">
+
+                <div class="chef-content">
+
+                    <p class="section-label">MEET THE CHEF</p>
+
+                    <h2>
+                        Crafted By
+                        <span>Passion.</span>
+                    </h2>
+
+                    <p>
+                        Chef Arham Khan brings over 15 years of culinary
+                        experience to the MEHRANÉ kitchen, combining
+                        traditional Pakistani techniques with modern
+                        fine-dining presentation.
+                    </p>
+
+                    <p>
+                        His philosophy is simple: respect the ingredients,
+                        honor the tradition and never stop creating.
+                    </p>
+
+                    <div class="chef-signature">
+                        <span>Arham Khan</span>
+                        <small>EXECUTIVE CHEF</small>
+                    </div>
+
+                </div>
+
+                <div class="chef-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1000&q=85"
+                        alt="Executive Chef">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= GALLERY ================= -->
+
+        <section class="gallery section" id="gallery">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">A GLIMPSE INSIDE</p>
+
+                    <h2>
+                        Taste It
+                        <span>With Your Eyes.</span>
+                    </h2>
+
+                </div>
+
+                <div class="gallery-grid">
+
+                    <div class="gallery-item gallery-large">
+                        <img
+                            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85"
+                            alt="Luxury restaurant interior">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img
+                            src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=85"
+                            alt="Restaurant dining">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img
+                            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=85"
+                            alt="Fine dining table">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img
+                            src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=85"
+                            alt="Restaurant atmosphere">
+                    </div>
+
+                    <div class="gallery-item gallery-wide">
+                        <img
+                            src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=1200&q=85"
+                            alt="Premium food presentation">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= REVIEWS ================= -->
+
+        <section class="reviews section" id="reviews">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">GUEST EXPERIENCES</p>
+
+                    <h2>
+                        Words From
+                        <span>Our Guests.</span>
+                    </h2>
+
+                </div>
+
+                <div class="reviews-grid">
+
+                    <article class="review-card">
+
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            “An exceptional dining experience. The flavors
+                            felt deeply authentic while the presentation
+                            was absolutely beautiful.”
+                        </p>
+
+                        <h4>Ayesha R.</h4>
+                        <span>Lahore</span>
+
+                    </article>
+
+
+                    <article class="review-card">
+
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            “The karahi and seekh kebabs were outstanding.
+                            MEHRANÉ has completely changed how I think
+                            about Pakistani fine dining.”
+                        </p>
+
+                        <h4>Hamza K.</h4>
+                        <span>Islamabad</span>
+
+                    </article>
+
+
+                    <article class="review-card">
+
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            “Beautiful atmosphere, incredible service and
+                            food that genuinely tells a story. A must-visit.”
+                        </p>
+
+                        <h4>Sara M.</h4>
+                        <span>Karachi</span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESERVATION ================= -->
+
+        <section class="reservation section" id="reservation">
+
+            <div class="container reservation-grid">
+
+                <div class="reservation-content">
+
+                    <p class="section-label">YOUR TABLE AWAITS</p>
+
+                    <h2>
+                        Make It
+                        <span>Memorable.</span>
+                    </h2>
+
+                    <p>
+                        Join us for an evening of exceptional food,
+                        warm hospitality and unforgettable moments.
+                    </p>
+
+                </div>
+
+
+                <form class="reservation-form" id="reservationForm">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">Full Name</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="phone">Phone</label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="+92 300 0000000"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="date">Date</label>
+
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                                required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="guests">Guests</label>
+
+                            <select id="guests" name="guests">
+
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5 Guests</option>
+                                <option value="6">6+ Guests</option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">Special Request</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Tell us about your occasion..."></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">
+                        Request Reservation
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="container contact-grid">
+
+                <div class="contact-info">
+
+                    <p class="section-label">FIND US</p>
+
+                    <h2>
+                        Come,
+                        <span>Stay Awhile.</span>
+                    </h2>
+
+                    <div class="contact-details">
+
+                        <div class="contact-item">
+
+                            <span class="contact-icon">01</span>
+
+                            <div>
+                                <h4>ADDRESS</h4>
+                                <p>
+                                    24 Heritage Avenue,<br>
+                                    Lahore, Pakistan
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <span class="contact-icon">02</span>
+
+                            <div>
+                                <h4>OPENING HOURS</h4>
+                                <p>
+                                    Monday – Sunday<br>
+                                    6:00 PM – 12:00 AM
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <span class="contact-icon">03</span>
+
+                            <div>
+                                <h4>CONTACT</h4>
+                                <p>
+                                    +92 300 1234567<br>
+                                    hello@mehrane.com
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="map-placeholder">
+
+                    <div class="map-content">
+
+                        <span>MEHRANÉ</span>
+
+                        <p>
+                            Lahore, Pakistan
+                        </p>
+
+                        <a href="#reservation" class="text-link">
+                            Get Directions →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span>MEHRANÉ</span>
+                    <small>PAKISTANI FINE DINING</small>
+                </a>
+
+                <p>
+                    Celebrating the flavors, stories and
+                    traditions of Pakistan.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>EXPLORE</h4>
+
+                <a href="#about">Our Story</a>
+                <a href="#menu">Menu</a>
+                <a href="#chef">Our Chef</a>
+                <a href="#gallery">Gallery</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>VISIT</h4>
+
+                <a href="#reservation">Reservations</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact">Location</a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h4>FOLLOW US</h4>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="TikTok">TikTok</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 MEHRANÉ. All Rights Reserved.
+            </p>
+
+            <p>
+                Designed & Developed by
+                <strong>Anas Murtaza</strong>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= BACK TO TOP ================= -->
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        ↑
+    </button>
+
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
